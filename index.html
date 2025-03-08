@@ -1,46 +1,633 @@
 <!DOCTYPE html>
-<html class="full" lang="en">
-  
+<html lang="pt-BR">
 
 <head>
-<meta charset="utf-8">
-<title>INFOSEC-MT</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="cybersecurity-summit-2025">
 
-<!-- Metatags --> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Um garoto em busca da UID=0 -⠠⠵  ">
-<meta name="author" content="Kembolle Amilkar">
-<meta name="keywords" content="Firewalls,Reverse Engineering,Ethical Hacking,Intrusion Detection ( HIDS / NIDS ),Packet Analysis.">
-<!-- Metatags --> 
+  <title>cybersecurity-summit-2025</title>
 
-<!-- stylesheet --> 
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
-<!--<link rel="stylesheet" href="css/font-awesome.min.css">--> 
-<link rel="stylesheet" href="css/style.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png">
 
-<!-- stylesheet -->
+  <!-- All CSS files -->
 
-
+  <link rel="stylesheet" href="static/css/font-awesome.css">
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/slick.css">
+  <link rel="stylesheet" href="static/css/slick-theme.css">
+  <link rel="stylesheet" href="static/css/app.css">
+  <style>
+    .hero-banner-sec {
+    height: 90vh;
+    }
+  </style>
 </head>
 
-<body>
-<div id="preloader">
-<div id="status"> <img src="img/preloader.gif" height="64" width="64" alt=""> </div>
-</div>
+<body class="tt-smooth-scroll">
 
+  <!-- PRELOADER START -->
+  <div id="preloader">
+    <div class="loaderViewPort" style="max-width: 300px;">
+      <img src="static/image/capivara_preloader.gif" alt="Loading..." style="width: 100%;">
+    </div>
+  </div>
+  <!-- PRELOADER END -->
 
-<div style="visibility:hidden"> <center><audio  autoplay loop><source src="music/fele-litha.mp3" style="display:none;" type="audio/mpeg"></audio></center>
+  <!-- Main Wrapper Start -->
+  <div id="scroll-container">
 
-</div>
+    <!-- HEADER MENU START -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navigation">
+          <div class="row row-gap-4">
+            <div class="col-lg-4 d-xl-block d-none">
+              <div class="menu-button-right">
+                <div class="main-menu__nav">
+                  <ul class="main-menu__list">
+                    <li>
+                      <a href="" class="active">Início</a>
+                    </li>
+                    <li>
+                      <div class="nav-dot"></div>
+                    </li>
+                    <li>
+                      <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                      <div class="nav-dot"></div>
+                    </li>
+                    <li>
+                      <a href="#palestrantes">Palestrantes</a>
+                    </li>
+                    </li>
+                    <li>
+                      <div class="nav-dot"></div>
+                    </li>
+                    <li>
+                      <a href="#participar">Como Participar?</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-6">
+              <div class="text-xl-center">
+                <a href="" class="">
+                  <img src="static/image/logo.png" alt="/logo" class="header-logo">
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-4 col-6">
+              <div class="text-end">
+                <div class="main-menu__right">
+                  <div class="search-heart-icon d-sm-flex d-none align-items-center gap-24">
+                    <a class="cus-btn" href="https://www.sympla.com.br/evento/cybersecurity-summit-2025/2856187?referrer=cybersecurity-summit.github.io">
+                      <span class="btn-text">Faça sua Inscrição</span>
+                    </a>
+                  </div>
+                  <a href="" class="d-xl-none d-flex main-menu__toggler mobile-nav__toggler">
+                    <img src="static/picture/menu-2.png" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- HEADER MENU END -->
+    <section class="hero-banner-sec mb-80">
+      <div class="container-fluid">
+        <div class="hero-img mb-5">
+          <img src="static/image/logo-summit.png" alt="">
+        </div>
+      </div>
+    </section>
 
+    <!-- About Section Start -->
+    <section class="about-sec py-80" id="sobre">
+      <img class="vector-1" src="static/picture/vector-1.png" alt="">
+      <img class="vector-2" src="static/picture/vector-2.png" alt="">
+      <div class="container-fluid">
+        <div class="row justify-content-center mb-80">
+          <div class="col-xl-10">
+            <div class="row row-gap-4">
+              <div class="col-lg-6">
+                <div class="text-center">
+                  <img class="about-img-1" src="static/image/about.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="d-flex align-items-center gap-12 mb-24">
+                  <img src="static/image/cyber-capi.png" class="dice-head" alt="dice-img">
+                  <h2 class="white">Capivara  <span class="color-sec"> Cyberpunk</span></h2>
+                </div>
+                <p class="lightest-gray mb-3">Reza a lenda que uma capivara cyberpunk saiu Porto cercado e subiu o rio até chegar em cuiabá no intuito de realizar suas manifestações virtuais na capital mais quente do pais.</p>
+                <p class="lightest-gray mb-3">"Tchegando" lá encontrou um grupo de estudantes que gosta de invadir computadores e estudar engenharia social. " ixpia só que galerinha mais hackuda temos aqui, acho que vou fazer minhas manifestações com eles" disse a capivara...</p>
+                <p class="lightest-gray mb-3">Dias se passaram e essa turma decidiu fazer um evento chamado de Cybersecurity Summit, o nome esta em inglês mas a “moage” é a mesma HAHAHA com o intuito de disseminar a essência hacking e fazer a união dos nerds, hackers, geeks, blue team red team modafocker team for all!</p>
+                <p class="lightest-gray mb-3">Olha só que curioso hein, marcaram isso para o dia 05 de abril de 2025 no IC - instituto de computação da UFMT, todo cuidado é pouco nesse dia meu biririco friend, recomendamos que desativem o Bluetooth do seu celular, não se conecte em wifi duvidosa, não aceite carregador USB e nem plugue nada no seu computador por engano, habilite o celular em modo avião e fique longe de quem tenha a cara de capivara!!!</p>
+                <p class="lightest-gray mb-3">... onde tem capivara cyberpunk tem hacking, onde tem hacking tem exposed!</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="py-80">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="about-pricing-box">
+                <div class="price-block v-1">
+                  <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fuel-pump color-primary" viewBox="0 0 16 16">
+                      <path d="M3 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5z"/>
+                      <path d="M1 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1 2 2v.5a.5.5 0 0 0 1 0V8h-.5a.5.5 0 0 1-.5-.5V4.375a.5.5 0 0 1 .5-.5h1.495c-.011-.476-.053-.894-.201-1.222a.97.97 0 0 0-.394-.458c-.184-.11-.464-.195-.9-.195a.5.5 0 0 1 0-1q.846-.002 1.412.336c.383.228.634.551.794.907.295.655.294 1.465.294 2.081v3.175a.5.5 0 0 1-.5.501H15v4.5a1.5 1.5 0 0 1-3 0V12a1 1 0 0 0-1-1v4h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1zm9 0a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v13h8z"/>
+                    </svg>
+                  </div>
+                  <div class="">
+                    <h4 class="fw-700 color-primary">100</h4>
+                    <p class="white">Litros de Chopp</p>
+                  </div>
+                </div>
+                <div class="price-block v-2">
+                  <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-piggy-bank-fill color-ter" viewBox="0 0 16 16">
+                      <path d="M7.964 1.527c-2.977 0-5.571 1.704-6.32 4.125h-.55A1 1 0 0 0 .11 6.824l.254 1.46a1.5 1.5 0 0 0 1.478 1.243h.263c.3.513.688.978 1.145 1.382l-.729 2.477a.5.5 0 0 0 .48.641h2a.5.5 0 0 0 .471-.332l.482-1.351c.635.173 1.31.267 2.011.267.707 0 1.388-.095 2.028-.272l.543 1.372a.5.5 0 0 0 .465.316h2a.5.5 0 0 0 .478-.645l-.761-2.506C13.81 9.895 14.5 8.559 14.5 7.069q0-.218-.02-.431c.261-.11.508-.266.705-.444.315.306.815.306.815-.417 0 .223-.5.223-.461-.026a1 1 0 0 0 .09-.255.7.7 0 0 0-.202-.645.58.58 0 0 0-.707-.098.74.74 0 0 0-.375.562c-.024.243.082.48.32.654a2 2 0 0 1-.259.153c-.534-2.664-3.284-4.595-6.442-4.595m7.173 3.876a.6.6 0 0 1-.098.21l-.044-.025c-.146-.09-.157-.175-.152-.223a.24.24 0 0 1 .117-.173c.049-.027.08-.021.113.012a.2.2 0 0 1 .064.199m-8.999-.65a.5.5 0 1 1-.276-.96A7.6 7.6 0 0 1 7.964 3.5c.763 0 1.497.11 2.18.315a.5.5 0 1 1-.287.958A6.6 6.6 0 0 0 7.964 4.5c-.64 0-1.255.09-1.826.254ZM5 6.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0"/>
+                    </svg>
+                  </div>
+                  <div class="">
+                    <h4 class="fw-700 color-ter">7</h4>
+                    <p class="white">Apoios e Patrocinadores</p>
+                  </div>
+                </div>
+                <div class="price-block v-3">
+                  <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-workspace color-primary-5" viewBox="0 0 16 16">
+                      <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                      <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.4 5.4 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2z"/>
+                    </svg>
+                  </div>
+                  <div class="">
+                    <h4 class="fw-700 color-primary-5">9</h4>
+                    <p class="white">Palestrantes</p>
+                  </div>
+                </div>
+                <div class="price-block v-4">
+                  <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill color-sec" viewBox="0 0 16 16">
+                      <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                    </svg>
+                  </div>
+                  <div class="">
+                    <h4 class="fw-700 color-sec">150</h4>
+                    <p class="white">Inscrições Abertas</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
 
-	
-<!-- Javascript --> 
-<script src="js/jquery.1.11.1.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.countdown.js"></script> 
-<script src="js/custom.js"></script>
+    <!-- estimonial Section Start -->
+    <section class="testimonial-sec py-80" id="palestrantes">
+      <img class="angle-vector" src="static/image/virus_6889283.png" alt="" style="height: 200px;">
+      <div class="container-fluid">
+        <div class="text-center mb-48">
+          <div class="d-flex align-items-center justify-content-center gap-12">
+            <img src="static/image/cyber-capi.png" class="dice-head" alt="">
+            <h2 class="">Palestrantes <span class="color-sec"> Convidados </span></h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="testimonial-slider1 row">
+              <div class="testimonial tblock-1 col-lg-4">
+                <div class="d-flex align-items-start justify-content-between mb-24">
+                  <div class="d-flex align-items-center gap-24">
+                    <div class=""><div class=""><img src="static/image/kembole.jpeg" class="rounded-circle" width="80px"></div></div>
+                    <div class="">
+                      <h6 class="white fw-700 mb-4p">Kembolle Amilkar</h6>
+                      <a href="https://www.linkedin.com/in/kembolle/" target="_blank"><p>@kembolle</p></a>
+                    </div>
+                  </div>
+                  <img src="static/picture/quote-1.png" alt="">
+                </div>
+                <div class="stroke-line mb-24">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="416" height="2" viewbox="0 0 416 2" fill="none">
+                    <path d="M414.666 1.82031C414.942 1.82031 415.166 1.59645 415.166 1.32031C415.166 1.04417 414.942 0.820313 414.666 0.820312L414.666 1.82031ZM414.666 0.820312L-0.000640825 0.820276L-0.000640913 1.82028L414.666 1.82031L414.666 0.820312Z" fill="url(#paint0_linear_41543_5812)"></path>
+                    <defs>
+                      <lineargradient id="paint0_linear_41543_5812" x1="-0.000640866" y1="2.09208" x2="419.652" y2="2.09208" gradientunits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                        <stop offset="0.5" stop-color="#FAFAFA"></stop>
+                        <stop offset="1" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg>
+
+                </div>
+                <p>Analista de Segurança da Informação - MPMT</p>
+              </div>
+              <div class="testimonial tblock-2 col-lg-4">
+                <div class="d-flex align-items-start justify-content-between mb-24">
+                  <div class="d-flex align-items-center gap-24">
+                    <div class=""><img src="static/image/leandro.jpg" class="rounded-circle" width="80px"></div>
+                    <div class="">
+                      <h6 class="white fw-700 mb-4p">Leandro Dias Barata</h6>
+                      <a href="https://www.linkedin.com/in/leandrodiasbarata/" target="_blank"><p>@leandrobarata</p></a>
+                    </div>
+                  </div>
+                  <img src="static/picture/quote-2.png" alt="">
+                </div>
+                <div class="stroke-line mb-24">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="416" height="2" viewbox="0 0 416 2" fill="none">
+                    <path d="M414.666 1.82031C414.942 1.82031 415.166 1.59645 415.166 1.32031C415.166 1.04417 414.942 0.820313 414.666 0.820312L414.666 1.82031ZM414.666 0.820312L-0.000640825 0.820276L-0.000640913 1.82028L414.666 1.82031L414.666 0.820312Z" fill="url(#paint0_linear_41543_5833)"></path>
+                    <defs>
+                      <lineargradient id="paint0_linear_41543_5833" x1="-0.000640866" y1="2.09208" x2="419.652" y2="2.09208" gradientunits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                        <stop offset="0.5" stop-color="#FAFAFA"></stop>
+                        <stop offset="1" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg>
+                </div>
+                <p>INFORMATION SECURITY | CYBERSECURITY | THREAT HUNTING | PENTEST | REVERSE ENGINEERING!</p>
+              </div>
+              <div class="testimonial tblock-3 col-lg-4">
+                <div class="d-flex align-items-start justify-content-between mb-24">
+                  <div class="d-flex align-items-center gap-24">
+                    <div class=""><img src="static/image/Davidson_1.png" class="rounded-circle" width="80px"></div>
+                    <div class="">
+                      <h6 class="white fw-700 mb-4p">Davidson Brito</h6>
+                      <a href="https://www.linkedin.com/in/davidsonbrito/" target="_blank"><p>@davidsonbrito</p></a>
+
+                    </div>
+                  </div>
+                  <img src="static/picture/quote-1.png" alt="">
+                </div>
+                <div class="stroke-line mb-24">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="416" height="2" viewbox="0 0 416 2" fill="none">
+                    <path d="M414.666 1.82031C414.942 1.82031 415.166 1.59645 415.166 1.32031C415.166 1.04417 414.942 0.820313 414.666 0.820312L414.666 1.82031ZM414.666 0.820312L-0.000640825 0.820276L-0.000640913 1.82028L414.666 1.82031L414.666 0.820312Z" fill="url(#paint0_linear_41543_525)"></path>
+                    <defs>
+                      <lineargradient id="paint0_linear_41543_525" x1="-0.000640866" y1="2.09208" x2="419.652" y2="2.09208" gradientunits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                        <stop offset="0.5" stop-color="#FAFAFA"></stop>
+                        <stop offset="1" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg>
+                </div>
+                <p>Cybersec Engineer Kaspersky</p>
+              </div>
+              <div class="testimonial tblock-1 col-lg-4">
+                <div class="d-flex align-items-start justify-content-between mb-24">
+                  <div class="d-flex align-items-center gap-24">
+                    <div class=""><img src="static/image/guilherme_fachinelli.png" class="rounded-circle" width="80px"></div>
+                    <div class="">
+                      <h6 class="white fw-700 mb-4p">DR. Guilherme Fachinelli</h6>
+                      <a href="https://www.pjc.mt.gov.br/inicio" target="_blank"><p>@guilhermefachinelli</p></a>
+                    </div>
+                  </div>
+                  <img src="static/picture/quote-1.png" alt="">
+                </div>
+                <div class="stroke-line mb-24">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="416" height="2" viewbox="0 0 416 2" fill="none">
+                    <path d="M414.666 1.82031C414.942 1.82031 415.166 1.59645 415.166 1.32031C415.166 1.04417 414.942 0.820313 414.666 0.820312L414.666 1.82031ZM414.666 0.820312L-0.000640825 0.820276L-0.000640913 1.82028L414.666 1.82031L414.666 0.820312Z" fill="url(#paint0_linear_41543_584)"></path>
+                    <defs>
+                      <lineargradient id="paint0_linear_41543_584" x1="-0.000640866" y1="2.09208" x2="419.652" y2="2.09208" gradientunits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                        <stop offset="0.5" stop-color="#FAFAFA"></stop>
+                        <stop offset="1" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg>
+                </div>
+                <p>Delegado Titular da DRCI - MT</p>
+              </div>
+              <div class="testimonial tblock-2 col-lg-4">
+                <div class="d-flex align-items-start justify-content-between mb-24">
+                  <div class="d-flex align-items-center gap-24">
+                    <div class=""><img src="static/image/diogenes.png" class="rounded-circle" width="80px"></div>
+                    <div class="">
+                      <h6 class="white fw-700 mb-4p">Diógenes Antônio</h6>
+                      <a href="https://www.linkedin.com/in/di%C3%B3genes-antonio-m-jos%C3%A9-jos%C3%A9-40ba6223/" target="_blank"><p>@Diogenesantonio</p></a>
+                    </div>
+                  </div>
+                  <img src="static/picture/quote-2.png" alt="">
+                </div>
+                <div class="stroke-line mb-24">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="416" height="2" viewbox="0 0 416 2" fill="none">
+                    <path d="M414.666 1.82031C414.942 1.82031 415.166 1.59645 415.166 1.32031C415.166 1.04417 414.942 0.820313 414.666 0.820312L414.666 1.82031ZM414.666 0.820312L-0.000640825 0.820276L-0.000640913 1.82028L414.666 1.82031L414.666 0.820312Z" fill="url(#paint0_linear_43543_585)"></path>
+                    <defs>
+                      <lineargradient id="paint0_linear_43543_585" x1="-0.000640866" y1="2.09208" x2="419.652" y2="2.09208" gradientunits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                        <stop offset="0.5" stop-color="#FAFAFA"></stop>
+                        <stop offset="1" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg>
+                </div>
+                <p>Professor e Pesquisador - UNEMAT</p>
+              </div>
+              <div class="testimonial tblock-3 col-lg-4">
+                <div class="d-flex align-items-start justify-content-between mb-24">
+                  <div class="d-flex align-items-center gap-24">
+                    <div class=""><img src="static/image/patricia.jpeg" class="rounded-circle" width="80px"></div>
+                    <div class="">
+                      <h6 class="white fw-700 mb-4p">Patrícia Ladislau Silva</h6>
+                      <a href="https://www.linkedin.com/in/patricialadislausilva/" target="_blank"><p>@patriciasilva</p></a>
+                    </div>
+                  </div>
+                  <img src="static/picture/quote-1.png" alt="">
+                </div>
+                <div class="stroke-line mb-24">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="416" height="2" viewbox="0 0 416 2" fill="none">
+                    <path d="M414.666 1.82031C414.942 1.82031 415.166 1.59645 415.166 1.32031C415.166 1.04417 414.942 0.820313 414.666 0.820312L414.666 1.82031ZM414.666 0.820312L-0.000640825 0.820276L-0.000640913 1.82028L414.666 1.82031L414.666 0.820312Z" fill="url(#paint0_linear_41543_5811)"></path>
+                    <defs>
+                      <lineargradient id="paint0_linear_41543_5811" x1="-0.000640866" y1="2.09208" x2="419.652" y2="2.09208" gradientunits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                        <stop offset="0.5" stop-color="#FAFAFA"></stop>
+                        <stop offset="1" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg>
+                </div>
+                <p>Zabbix Certified Expert | Instrutora & Mentora | Zabbix GirlZ Leader "Go Go Go, GirlZ!" | Grafana | O11y | OpenTelemetry | Gamer e a @damadomonitoramento</p>
+              </div>
+              <div class="testimonial tblock-1 col-lg-4">
+                <div class="d-flex align-items-start justify-content-between mb-24">
+                  <div class="d-flex align-items-center gap-24">
+                    <div class=""><div class=""><img src="static/image/felipe.jpeg" class="rounded-circle" width="80px"></div></div>
+                    <div class="">
+                      <h6 class="white fw-700 mb-4p">Felipe Massahiro</h6>
+                      <a href="https://www.linkedin.com/in/felipe-massahiro-wakiinaguni-5b6343bb/" target="_blank"><p>@felipemassahiro</p></a>
+                    </div>
+                  </div>
+                  <img src="static/picture/quote-1.png" alt="">
+                </div>
+                <div class="stroke-line mb-24">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="416" height="2" viewbox="0 0 416 2" fill="none">
+                    <path d="M414.666 1.82031C414.942 1.82031 415.166 1.59645 415.166 1.32031C415.166 1.04417 414.942 0.820313 414.666 0.820312L414.666 1.82031ZM414.666 0.820312L-0.000640825 0.820276L-0.000640913 1.82028L414.666 1.82031L414.666 0.820312Z" fill="url(#paint0_linear_41543_5812)"></path>
+                    <defs>
+                      <lineargradient id="paint0_linear_41543_5812" x1="-0.000640866" y1="2.09208" x2="419.652" y2="2.09208" gradientunits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                        <stop offset="0.5" stop-color="#FAFAFA"></stop>
+                        <stop offset="1" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg>
+
+                </div>
+                <p>Analista de infraestrutura de TI</p>
+              </div>
+              <div class="testimonial tblock-2 col-lg-4">
+                <div class="d-flex align-items-start justify-content-between mb-24">
+                  <div class="d-flex align-items-center gap-24">
+                    <div class=""><img src="static/image/leandro.jpg" class="rounded-circle" width="80px"></div>
+                    <div class="">
+                      <h6 class="white fw-700 mb-4p">Wesley Ferreira</h6>
+                      <a href="https://www.sesp.mt.gov.br/situacao-da-fronteira-oeste" target="_blank"><p>@wesleyferreira</p></a>
+                    </div>
+                  </div>
+                  <img src="static/picture/quote-2.png" alt="">
+                </div>
+                <div class="stroke-line mb-24">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="416" height="2" viewbox="0 0 416 2" fill="none">
+                    <path d="M414.666 1.82031C414.942 1.82031 415.166 1.59645 415.166 1.32031C415.166 1.04417 414.942 0.820313 414.666 0.820312L414.666 1.82031ZM414.666 0.820312L-0.000640825 0.820276L-0.000640913 1.82028L414.666 1.82031L414.666 0.820312Z" fill="url(#paint0_linear_41543_5833)"></path>
+                    <defs>
+                      <lineargradient id="paint0_linear_41543_5833" x1="-0.000640866" y1="2.09208" x2="419.652" y2="2.09208" gradientunits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                        <stop offset="0.5" stop-color="#FAFAFA"></stop>
+                        <stop offset="1" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg>
+                </div>
+                <p>O Grupo Especial de Fronteira (GEFRON)</p>
+              </div>
+              <div class="testimonial tblock-3 col-lg-4">
+                <div class="d-flex align-items-start justify-content-between mb-24">
+                  <div class="d-flex align-items-center gap-24">
+                    <div class=""><img src="static/image/wallace.jpg" class="rounded-circle" width="80px"></div>
+                    <div class="">
+                      <h6 class="white fw-700 mb-4p">Wallace Bismark</h6>
+                      <a href="https://www.linkedin.com/in/wallacebismark/" target="_blank"><p>@wallacebismark</p></a>
+                    </div>
+                  </div>
+                  <img src="static/picture/quote-1.png" alt="">
+                </div>
+                <div class="stroke-line mb-24">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="416" height="2" viewbox="0 0 416 2" fill="none">
+                    <path d="M414.666 1.82031C414.942 1.82031 415.166 1.59645 415.166 1.32031C415.166 1.04417 414.942 0.820313 414.666 0.820312L414.666 1.82031ZM414.666 0.820312L-0.000640825 0.820276L-0.000640913 1.82028L414.666 1.82031L414.666 0.820312Z" fill="url(#paint0_linear_41543_525)"></path>
+                    <defs>
+                      <lineargradient id="paint0_linear_41543_525" x1="-0.000640866" y1="2.09208" x2="419.652" y2="2.09208" gradientunits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                        <stop offset="0.5" stop-color="#FAFAFA"></stop>
+                        <stop offset="1" stop-color="#FAFAFA" stop-opacity="0"></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg>
+                </div>
+                <p>Ciência de Dados | OSINT | Investigation Agent and Analyst | Python | R | CCO (Cellebrite) | CCPA (Cellebrite)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial Section End -->
+
+    <!-- Last Chance Start -->
+    <div class="last-chance-sec py-80">
+      <img class="w-100" src="static/image/wallpaper-summit-2.png" alt="">
+    </div>
+    <!-- Last Chance End -->
+
+    <!-- Payment Services Section Start -->
+    <section class="payment-service-sec py-80" id="participar">
+      <img class="shine-vector" src="static/picture/shine-vector.png" alt="">
+      <div class="text-center mb-48">
+        <div class="d-flex align-items-center justify-content-center gap-12">
+          <img src="static/image/cyber-capi.png" class="dice-head" alt="">
+          <h2 class="">Como participo do <span class="color-primary">Evento?</span></h2>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row row-gap-4 align-items-center">
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <a href="https://www.sympla.com.br/evento/cybersecurity-summit-2025/2856187?referrer=cybersecurity-summit.github.io" class="payment block-1">
+              <span class="d-flex align-items-center justify-content-between mb-32">
+                <span>
+                  <img src="static/picture/credit-card.png" alt="">
+                </span>
+                <span class="hover-svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewbox="0 0 40 41" fill="none">
+                    <g clip-path="url(#clip0_41539_450)">
+                      <path d="M7.32827 27.6373C8.31581 29.3478 10.5033 29.9339 12.2138 28.9464L24.6834 21.747L23.7526 26.8478C23.3974 28.7914 24.6856 30.6525 26.6293 31.0077C27.4977 31.1671 28.3486 30.9959 29.0571 30.5868C29.9352 30.0798 30.593 29.2056 30.7892 28.1311L33.1078 15.4254C33.4227 13.7032 32.4414 12.0036 30.793 11.416L18.6303 7.07109C16.7694 6.40687 14.7237 7.37528 14.0595 9.23617C13.3952 11.0971 14.3629 13.1432 16.2238 13.8074L21.1065 15.5517L8.63688 22.751C6.92641 23.7386 6.34028 25.9261 7.32827 27.6373Z" fill="#8D00F9"></path>
+                    </g>
+                    <defs>
+                      <clippath id="clip0_41539_450">
+                        <rect width="29.282" height="29.282" fill="white" transform="matrix(-0.866025 0.5 0.5 0.866025 25.3594 0.320312)"></rect>
+                      </clippath>
+                    </defs>
+                  </svg>
+                </span>
+              </span>
+              <span class="h6 fw-600 white mb-16 hover-content">Onde faço a inscrição para participar?</span>
+              <span class="text-18">
+                Você vai acessar nosso sympla e fazer a sua inscrição! Aqui terá acesso a todos os beneficios do evento!
+              </span>
+            </a>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <a href="" class="payment block-2">
+              <span class="d-flex align-items-center justify-content-between mb-32">
+                <span>
+                  <img src="static/picture/transfer.png" alt="">
+                </span>
+                <span class="hover-svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewbox="0 0 40 41" fill="none">
+                    <g clip-path="url(#clip0_41539_523)">
+                      <path d="M7.32827 27.6373C8.31581 29.3478 10.5033 29.9339 12.2138 28.9464L24.6834 21.747L23.7526 26.8478C23.3974 28.7914 24.6856 30.6525 26.6293 31.0077C27.4977 31.1671 28.3486 30.9959 29.0571 30.5868C29.9352 30.0798 30.593 29.2056 30.7892 28.1311L33.1078 15.4254C33.4227 13.7032 32.4414 12.0036 30.793 11.416L18.6303 7.07109C16.7694 6.40687 14.7237 7.37528 14.0595 9.23617C13.3952 11.0971 14.3629 13.1432 16.2238 13.8074L21.1065 15.5517L8.63688 22.751C6.92641 23.7386 6.34028 25.9261 7.32827 27.6373Z" fill="#FFD600"></path>
+                    </g>
+                    <defs>
+                      <clippath id="clip0_41539_523">
+                        <rect width="29.282" height="29.282" fill="white" transform="matrix(-0.866025 0.5 0.5 0.866025 25.3594 0.320312)"></rect>
+                      </clippath>
+                    </defs>
+                  </svg>
+                </span>
+              </span>
+              <span class="h6 fw-600 white mb-16 hover-content">Quando acontecerá o encontro?</span>
+              <span class="text-18">Dia 05 de abril de 2025 as 12:00 horas no IC - instituto de computação da UFMT, seremos pontuais com o horario não vai se atrasar hein! (-;</span>
+            </a>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-5">
+            <a href="" class="payment block-3">
+              <span class="d-flex align-items-center justify-content-between mb-32">
+                <span>
+                  <img src="static/picture/bitcoin.png" alt="">
+                </span>
+                <span class="hover-svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewbox="0 0 40 41" fill="none">
+                    <g clip-path="url(#clip0_41539_533)">
+                      <path d="M7.32827 27.6373C8.31581 29.3478 10.5033 29.9339 12.2138 28.9464L24.6834 21.747L23.7526 26.8478C23.3974 28.7914 24.6856 30.6525 26.6293 31.0077C27.4977 31.1671 28.3486 30.9959 29.0571 30.5868C29.9352 30.0798 30.593 29.2056 30.7892 28.1311L33.1078 15.4254C33.4227 13.7032 32.4414 12.0036 30.793 11.416L18.6303 7.07109C16.7694 6.40687 14.7237 7.37528 14.0595 9.23617C13.3952 11.0971 14.3629 13.1432 16.2238 13.8074L21.1065 15.5517L8.63688 22.751C6.92641 23.7386 6.34028 25.9261 7.32827 27.6373Z" fill="#ACFC00"></path>
+                    </g>
+                    <defs>
+                      <clippath id="clip0_41539_533">
+                        <rect width="29.282" height="29.282" fill="white" transform="matrix(-0.866025 0.5 0.5 0.866025 25.3594 0.320312)"></rect>
+                      </clippath>
+                    </defs>
+                  </svg>
+                </span>
+              </span>
+              <span class="h6 fw-600 white mb-16 hover-content">Teremos comida e bebida?</span>
+              <span class="text-18">Aham! Teremos salgadinhos no intervalo para encher a sua pança de avestruz e um chopp geladissimo no final do evento para vocês curtirem um happy nerd e diferenciado!</span>
+            </a>
+          </div>
+          <div class="col-lg-12 col-md-7">
+            <a href="" class="payment block-4">
+              <span class="d-flex align-items-center justify-content-between mb-32">
+                <span>
+                  <img src="static/picture/coupon.png" alt="">
+                </span>
+                <span class="hover-svg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewbox="0 0 40 41" fill="none">
+                    <g clip-path="url(#clip0_41539_553)">
+                      <path d="M7.32827 27.6373C8.31581 29.3478 10.5033 29.9339 12.2138 28.9464L24.6834 21.747L23.7526 26.8478C23.3974 28.7914 24.6856 30.6525 26.6293 31.0077C27.4977 31.1671 28.3486 30.9959 29.0571 30.5868C29.9352 30.0798 30.593 29.2056 30.7892 28.1311L33.1078 15.4254C33.4227 13.7032 32.4414 12.0036 30.793 11.416L18.6303 7.07109C16.7694 6.40687 14.7237 7.37528 14.0595 9.23617C13.3952 11.0971 14.3629 13.1432 16.2238 13.8074L21.1065 15.5517L8.63688 22.751C6.92641 23.7386 6.34028 25.9261 7.32827 27.6373Z" fill="#009CFF"></path>
+                    </g>
+                    <defs>
+                      <clippath id="clip0_41539_553">
+                        <rect width="29.282" height="29.282" fill="white" transform="matrix(-0.866025 0.5 0.5 0.866025 25.3594 0.320312)"></rect>
+                      </clippath>
+                    </defs>
+                  </svg>
+                </span>
+              </span>
+              <span class="h6 fw-600 white mb-16 hover-content">Legal e quais são esses beneficios?</span>
+              <span class="text-18">Cybersecurity Summit contará com grandes nomes da segurança da informação, você terá acesso a todos os palestrantes em uma área de network, podendo tirar suas duvidas e conhecer novas tendencias de mercado.</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Payment Services Section End -->
+
+    <footer class="footer py-80">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-xl-10 text-center">
+            <div class="row row-gap-4 align-items-center mb-96">
+              <div class="col-md-12">
+                <a href="">
+                  <img src="static/image/logo.png" alt="" class="col-lg-4">
+                </a>
+              </div>
+            </div>
+            
+            <div class="hr-line mb-24"></div>
+            <div class="text-center">
+              <p class="white">Copyright &copy; 2025.Todos os direitos reservados</p>
+              <p class="white mt-3">Desenvolvido por: <br><span class="mt-2"><a target="_blank" href="https://vmisolucoesweb.com.br/"><img src="static/image/vmi_logo.png" alt="" style="height: 60px;"></a> <a target="_blank" href="https://gabrielweb.com.br/"><img src="static/image/assinatura-gabrielweb.png" alt="" style="height: 60px;"></a></span>
+                 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Main Wrapper End -->
+  </div>
+  <!-- Back To Top Start -->
+  <button class="scrollToTopBtn"><i class="fa fa-arrow-up"></i></button>
+
+  <!-- Mobile Menu Start -->
+  <div class="mobile-nav__wrapper">
+    <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+    <div class="mobile-nav__content">
+      <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+      <div class="logo-box">
+        <a href="" aria-label="logo image"><img src="static/picture/logo.png" alt=""></a>
+      </div>
+      <div class="mobile-nav__container"></div>
+      <ul class="mobile-nav__contact list-unstyled">
+        <li>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:example@company.com">example@company.com</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+12345678">+123 (4567) -890</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Mobile Menu End -->
+
+  <!-- modal-popup area end  -->
+  <div class="search-popup">
+    <div class="search-popup__overlay search-toggler"></div>
+    <div class="search-popup__content">
+      <form role="search" method="get" class="search-popup__form" action="index.html">
+        <input type="text" id="search" placeholder="Search Here...">
+        <button type="submit"><i class="fal fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+  <!-- search-popup -->
+
+  <!-- Jquery Js -->
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/jquery-3.6.3.min.js"></script>
+  <script src="static/js/slick.min.js"></script>
+  <script src="static/js/video.js"></script>
+  <script src="static/js/jquery.countdown.min.js"></script>
+  <script src="static/js/app.js"></script>
+
 </body>
+
 </html>
